@@ -1,0 +1,25 @@
+{
+  "name": "yass3u",
+  "version": "1.0.0",
+  "description": "Yet Another Simple S3 Uploader",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/adurham/yass3u.git"
+  },
+  "author": "Adam Durham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adurham/yass3u/issues"
+  },
+  "homepage": "https://github.com/adurham/yass3u#readme",
+  "dependencies": {
+    "aws-sdk": "^2.27.0",
+    "express": "^4.13.3",
+    "formidable": "^1.0.17",
+    "s3-upload-stream": "^1.0.7"
+  }
+}
